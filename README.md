@@ -4,6 +4,16 @@
 
 To test the Prediction Accuracy of various Hybrid versions of the KNN, LDA & QDA algorithms and compare them with their original versions
 
+## Literature Survey
+
+1. Halil Yigit had worked on ABC- based distance–weighted kNN algorithm [7].
+2. Xuejun Ma, et.al [13] studied on a variant of K nearest neighbour quantile regression.
+3. Some of the related works based on KNN and Discriminant Analysis can be found in [1, 8, 9, 10, 11, 12].  
+4. The working of this project is based on the study of molecular descriptors for Drug/Non-Drug compounds extracted from medicinal plants. The molecular descriptors of these chemical compounds are identified by Dr. O. S. Deepa Gopakumar and Ani R. They have studied a lot on the classification of the compounds extracted from the medicinal plants [2, 3, 4, 5, 6].
+5. Descriptions of the same can be found in [15, 16].
+6. The machine learning approaches like classification of these compounds to drug compounds and non drug compounds are done by Kormaz, Selcuk, Gokmen Zararsiz, and Dincer Goksusluk [14].
+7. Descriptions of machine learning approaches are also found in [17].
+
 ## Data Source
 
 The data used for testing the Prediction Accuracy was taken from the UCI Repository
@@ -70,6 +80,38 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 15. CONSTRAINED KNN (Original Algorithm)
 16. CONSTRAINED KNN LDA (Hybrid Algorithm)
 17. CONSTRAINED KNN QDA (Hybrid Algorithm)
+
+## Overview of KNN Classifier
+
+1. This classifier does classification using instance based learning
+2. KNN stands for k-nearest neighbours
+3. This algorithm consists of two phases – training phase and testing phase
+4. Training phase consists only of storing the feature vectors and class labels of the training sample
+5. K is a user defined parameter which tells us how many neighbours to consider from the testing sample
+6. The distances from each training point to the testing point are calculated
+7. Identify the k-nearest neighbours
+8. Use the class labels of these k-nearest neighbours to determine the class label for the testing sample
+9. The testing sample is assigned the class label of the majority of the k-nearest neighbours
+
+# Linear Discriminant Analysis
+
+1. This is a method that helps us find a linear combination of features that splits two classes of objects from each other.
+2. It is a generalization of Fischer’s Linear Discriminant, used in statistics, machine learning and pattern recognition.
+3. The linear combination obtained as a result of LDA can be used as a linear classifier or for dimensionality reduction before classification.
+4. It is closely related to Analysis of Variance(ANOVA), Regression Analysis, Principal Component Analysis(PCA) and Factor Analysis(FA), which also attempt to express a dependent variable in terms of independent variables.
+5. This method is also known as Normal Discriminant Analysis(NDA) or Discriminant Function Analysis(DFA).
+
+![alt text]()
+
+# Quadratic Discriminant Analysis
+
+1. This method is used to separate two or more classes of objects from one another.
+2. Instead of a line in the case of LDA, here, we represent the boundary separating the classes as a quadric surface.
+3. We can call this as a more generic version of the linear classifier.
+4. It is used in machine learning and is closely related to LDA.
+5. The measurements from each class are normally distributed like in LDA, but here, we do not assume that the covariance of each of the classes are equal.
+
+![alt text]()
 
 Predictions using each of the above were crried out and their accuracy was also computed. The accuracy is computed by comparing the predicted values with the actual values in the partitions taken as our Training Datasets.
 
@@ -150,7 +192,34 @@ In the below links, you can find the MATLAB codes for some of the algorithms as 
 
 ## Conclusion
 
-For all the three data sets used above, the Hybrid Algorithms showed a better performance their respective Original Algorithms.
+1. For all the three data sets used above, Diabetes, Cancer and Herbal Plants, the KNN LDA, KNN QDA, Condensed KNN LDA, Condensed KNN QDA, Fuzzy KNN LDA, Fuzzy KNN QDA, Constrained Fuzzy KNN LDA, Constrained Fuzzy KNN QDA, Rough Fuzzy KNN LDA and Rough Fuzzy KNN QDA showed a better performance than KNN, Condensed KNN, Constrained KNN and Rough Fuzzy KNN. 
+2. From the cancer data set it is found that the accuracy performance of LDA and QDA with respect to Condensed, Fuzzy, Constrained Fuzzy and Rough Fuzzy were high. Also accuracy of QDA on Condensed Fuzzy, Constrained Fuzzy, and Rough Fuzzy over whelmed the accuracy with respect to LDA and hence can be concluded that the use of KNN QDA on Condensed Fuzzy, Constrained Fuzzy and Rough Fuzzy is preferable.  
+3. The prediction for diabetes using various algorithms was around 77% and can be improved by using few boosting techniques or by increasing the number of samples. So the computer based decision support systems can be used based on Fuzzy KNN- LDA, Fuzzy KNN- QDA, KNN-LDA and KNN -QDA so as to reduce cost and errors in clinical trials. 
+4. In the herbal plants data set, we find the LDA to be more effective than QDA with respect to ordinary KNN as well as with respect to Constrained Fuzzy. With respect to Fuzzy, Rough Fuzzy and Condensed Fuzzy, LDA and QDA are equally effective with higher accuracy in Rough Fuzzy than in Fuzzy and Condensed Fuzzy.
+
+## References
+
+1. Aiman Moldagulova, Rosnafisha Bte Sulaiman, Using KNN algorithm for classification of textual documents, IEEE Xplore October 2017.  
+2. Ani R. and O.S. Deepa, Rotation forest ensemble algorithm for the classification of phyto-chemicals from the medicinal plants, Journal of chemical and pharmaceutical science, pp. 14-17, Special issue  4,  2016.  
+3. Ani R., Jose J. ,Wilson M., Deepa O.S.: Modified rotation forest ensemble classifier for medical diagnosis in decision support systems Advances in Intelligent Systems and Computing,564, pp. 137-146. 
+3. Ani R., Krishna S., Anju N., Sona A.M., Deepa O.S.: IoT based patient monitoring and diagnostic prediction tool using ensemble classifier, 2017 International Conference on Advances in Computing, Communications and Informatics, ICACCI 2017, 2017 January, pp. 1588-1593. 
+5. Ani R. and Deepa O.S.: Rotation forest ensemble algorithm for the classification of phyto-chemicals from the medicinal plants, Journal of Chemical and Pharmaceutical Sciences,2016(SpecialIssue4), pp. 6-9 
+6. Deepa O.S. and Ani R.: Expectation - Maximization algorithm for protein - Ligand complex of HFE gene, Journal of Chemical and Pharmaceutical Sciences, pp. 14-17, 2016(SpecialIssue4),  
+7. Halil Yigit:  ABC – based distance - weighted kNN algorithm, Journal of Experimental and Theoretical Artificial Intelligence, Vol.27, issue 2, 2015.  
+8. Liwen Huang and Lianta Su: Hierarchical Discriminant analysis and its application, Liwen  Huang and Lianta Su, Communication in Statistics – Theory and Methods, Vol 42, issue 11, 2013.  
+9. P. Kakaivani, K.L. Shumuganathan: An improved K – nearest neighbour algorithm using   genetic algorithm for sentiment classification, IEEE Xplore, March 2015.  
+10. P.T. Pepler, D.W Uys and D.G. Nel ; Discriminant analysis under the common principal  components model, Communication in statistics- simulation and computations, vol 46, issue 6, Feb 2017.  
+11. Shweta Taneia, Charu Gupta, Kratika Goval, Dharna Gureia: An Enhanced K-Nearest Neighbour Algorithm Using Information Gain and clustering, IEEE Xplore April 2014.  
+12. Wei-Yin Loh and Nutal Vanichesetakal: Journal of the American Statistical Association, Vol 83, issue 403, Mar 2012 Tree-Structured Classification via Generalized Discriminant Analysis.  
+13. Xuejun Ma, Xiaogun He and Xiaokang Shi : A variant of K nearest neighbour quantile  regression, Journal of Applied Statistics, Vol 43,issue 3 ,2016. 
+14. Kormaz, Selcuk, Gokmen Zararsiz, and Dincer Goksusluk. “Drug/nondrug classification using support vector machines with various feature selection strategies.” computer methods and programs in biomedicine 117.2(2014): 51-60.
+15. Cano, Gaspar, et al. “Automatic selection of molecular descriptors using random forest: Application to Drug discovery.” Expert Systems with Applications 72(2017): 151-159.
+16. Rodriguez, Juan Jose. Ludmila I. Kuncheva, and Carlos J. Alonso. ‘Rotation forest: A new classifier ensemble method.” IEEE transactions on pattern analysis and machine intelligence 28.10(2006): 1619-1630.
+17. Lavecchia, Antonio. “Machine-learning approaches in Drug discovery: methods and applications.” Drug discovery today 20.3(2015): 318-331.
+
+![image](https://user-images.githubusercontent.com/103128153/224525959-9ae123a1-5880-4b6a-b905-8276692535c9.png)
+
+
 
 ## Note
 
