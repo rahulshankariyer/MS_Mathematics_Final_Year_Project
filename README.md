@@ -113,9 +113,48 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 
 ![alt text]()
 
-Predictions using each of the above were crried out and their accuracy was also computed. The accuracy is computed by comparing the predicted values with the actual values in the partitions taken as our Training Datasets.
+## Usage of LDA and QDA
+
+1. LDA tends to be a better bet than QDA if there are relatively few training observations and so has substantially lower variance.
+2. QDA is recommended if the training set is very large, so that the variance of the classifier is not a major concern.
+3. QDA has more predictability power than LDA but it needs to estimate the covariance matrix for each classes. 
+
+## Fuzzy KNN Algorithm
+
+1. Take m sample vectors with n parameters, say, x1,x2,…,xn which can be assigned to any one of  different classes, say, C1,C2,…,Cn. These are considered as training data sets. 
+2. For each of training and testing data the distance is calculated  by taking the sum of the squares of the distance between each parameter of the training and  testing data, i.e., given two vectors x1,x2,…,xn and y1,y2,…,yn.The distance is given by (x1-y1)2+(x2-y2)2+…+(xn-yn)2.  
+3. Take the k training data sets with the least values of distance from the training data set.
+4. From the k training data sets obtained above, count how many of these belong to each class.  
+5. For each class, create a Boolean vector which assigns a value between 0 and 1.
+6. For each class, calculate the value Ʃ(no of rows in each matrix*Covariance Matrix)/(distance of each training data set from the testing data set). These values are considered as XC1,XC2,…,XCn.  
+7. Let Ʃ1/(distance of each training data set from the testing data set).  For each class, calculate the value Z=X/Y. Let these values be ZC1,ZC2,…,ZCn.
+8. Assign the class with the highest Z-value to the testing data set. 
+9. If two of the classes both share the highest Z-value, then find the closest of the k neighbours belonging to one of these two classes and assign that class to the testing data set.  
+ 
+## Fuzzy KNN-LDA Algorithm
+
+1. Take m sample vectors with n parameters, say, x1,x2,…,xn which can be assigned to any one of  different classes, say, c1,c2,…,cn. These are considered as training data sets. 
+2. Take another sample vector, say k, with the same n parameters. We shall call this a testing data set. 
+3. For each of training and testing data the distance is calculated  by taking the sum of the squares of the distance between each parameter of the training and  testing data, i.e., given two vectors x1,x2,…,xn and y1,y2,…,yn.The distance is given by (x1-y1)2+(x2-y2)2+…+(xn-yn)2.  
+4. Take the k training data sets with the least values of distance from the training data set.
+5. From the k training data sets obtained above, count how many of these belong to each class.  
+6. For each class, store the belonging training data sets in a matrix, where each row of the matrix is a training data set. Call these as class matrices, say C1 and C2.
+7. Calculate the average data set for the training data set in each matrix, say avgC1 and avgC2 for the distance vectors in both matrices, say avg.  
+8. Multiply the distance vectors of each of the distance matrices of each class by their membership in that class. We shall call these matrices as d1 and d2.
+9. For each of the class matrices, create new matrices, say C01 and C02, which are obtained by calculating the distance vector between each row of the class matrices and the average vector, avg.  
+10. For each class we can calculate the covariance matrix using the formula (G*G’)/(number of rows in G) for any given matrix G. In this case, we shall apply the formula to the matrices C01 and C02 and call the resulting covariance matrices CovC1 and CovC2.  
+11. Calculate the pooled covariance matrix, say Cov, which is given by the formula Ʃ(no of rows in each distance matrix*Covariance Matrix)/(no of rows in each distance matrix). Apply this formula to distance matrices d1 and d2 and covariance matrices CovC1 and CovC2.
+12. Calculate the linear model coefficient vector, which is in this case, β=(avgC1-avgC2)/(Cov).
+13. Let X=(K-((avgC1-avgC2)/2)) β’ and Y=-log((number of rows in C1)/(number of rows in C2)).
+14. If X>Y, then assign the class c1 to the testing data set. Otherwise, assign the class c2.  
+
+## Fuzzy KNN-QDA Algorithm
+
+
 
 ### Accuracy On Diabetes Dataset
+
+Predictions using each of the above were crried out and their accuracy was also computed. The accuracy is computed by comparing the predicted values with the actual values in the partitions taken as our Training Datasets.
 
 | Algorithm | Correctly Classified | Incorrectly Classified | Accuracy % |
 | --- | --- | --- | --- |
