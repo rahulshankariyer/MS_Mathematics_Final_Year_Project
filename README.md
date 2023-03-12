@@ -93,7 +93,7 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 8. Use the class labels of these k-nearest neighbours to determine the class label for the testing sample
 9. The testing sample is assigned the class label of the majority of the k-nearest neighbours
 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/main/KNN.png)
 
 ### Linear Discriminant Analysis
 
@@ -103,7 +103,7 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 4. It is closely related to Analysis of Variance(ANOVA), Regression Analysis, Principal Component Analysis(PCA) and Factor Analysis(FA), which also attempt to express a dependent variable in terms of independent variables.
 5. This method is also known as Normal Discriminant Analysis(NDA) or Discriminant Function Analysis(DFA).
 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/main/LDA.png)
 
 ### Quadratic Discriminant Analysis
 
@@ -113,7 +113,7 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 4. It is used in machine learning and is closely related to LDA.
 5. The measurements from each class are normally distributed like in LDA, but here, we do not assume that the covariance of each of the classes are equal.
 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/main/QDA.png)
 
 ### Usage of LDA and QDA
 
