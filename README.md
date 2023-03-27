@@ -299,10 +299,6 @@ In the below links, you can find the MATLAB codes for some of the algorithms as 
 16. Rodriguez, Juan Jose. Ludmila I. Kuncheva, and Carlos J. Alonso. ‘Rotation forest: A new classifier ensemble method.” IEEE transactions on pattern analysis and machine intelligence 28.10(2006): 1619-1630.
 17. Lavecchia, Antonio. “Machine-learning approaches in Drug discovery: methods and applications.” Drug discovery today 20.3(2015): 318-331.
 
-![image](https://user-images.githubusercontent.com/103128153/224525959-9ae123a1-5880-4b6a-b905-8276692535c9.png)
-
-
-
 ## Note
 
 I had prepared the below slides for my Final Year Project Review in MSc Mathematics. These slides contain the detailed workings of each of the algorithms as well as their accuracies
