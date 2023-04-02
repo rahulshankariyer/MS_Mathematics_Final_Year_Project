@@ -6,7 +6,7 @@ To test the Prediction Accuracy of various Hybrid versions of the KNN, LDA & QDA
 
 ## Data Source
 
-The data used for testing the Prediction Accuracy was taken from the UCI Repository
+The data used for testing the Prediction Accuracy was taken from the University of California Irvine Repository
 
 ## Data Used
 
