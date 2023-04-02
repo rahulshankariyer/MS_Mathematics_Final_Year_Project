@@ -277,4 +277,4 @@ I had prepared the below slides for my Final Year Project Review in MSc Mathemat
 
 Further background behind this project is given in the thesis below which I submitted for my Degree in MSc Mathematics in PDF format.
 
-<a href = ""> HYBRID K-NEAREST NEIGHBOUR AND DISCRIMINANT ANALYSIS FOR PREDICTING MEDICAL DIAGNOSIS IN DECISION SUPPORT SYSTEM </a>
+<a href = "https://github.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/blob/main/RAHUL%20FINAL%20YEAR%20PROJECT%20REPORT.pdf"> HYBRID K-NEAREST NEIGHBOUR AND DISCRIMINANT ANALYSIS FOR PREDICTING MEDICAL DIAGNOSIS IN DECISION SUPPORT SYSTEM </a>
