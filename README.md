@@ -28,7 +28,7 @@ The Cancer Dataset contains a binary attribute that denotes whether the patient 
 
 ### c. Herbal Plants Dataset
 
-The Herbal Plants Dataset contains 23 Drug Properties along with an attribute that denotes which Chemical Compound is available in the plant. The Diabetes & Cancer Datasets serve as the bench mark for this classification.
+The Herbal Plants Dataset contains 23 Drug Properties along with an attribute that denotes which Chemical Compound is available in the plant. 
 
 ## Data Transformations
 
