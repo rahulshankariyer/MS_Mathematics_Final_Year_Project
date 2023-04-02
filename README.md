@@ -269,26 +269,6 @@ In the below links, you can find the MATLAB codes for some of the algorithms as 
 3. The prediction for diabetes using various algorithms was around 77% and can be improved by using few boosting techniques or by increasing the number of samples. So the computer based decision support systems can be used based on Fuzzy KNN- LDA, Fuzzy KNN- QDA, KNN-LDA and KNN -QDA so as to reduce cost and errors in clinical trials. 
 4. In the herbal plants data set, we find the LDA to be more effective than QDA with respect to ordinary KNN as well as with respect to Constrained Fuzzy. With respect to Fuzzy, Rough Fuzzy and Condensed Fuzzy, LDA and QDA are equally effective with higher accuracy in Rough Fuzzy than in Fuzzy and Condensed Fuzzy.
 
-## References
-
-1. Aiman Moldagulova, Rosnafisha Bte Sulaiman, Using KNN algorithm for classification of textual documents, IEEE Xplore October 2017.  
-2. Ani R. and O.S. Deepa, Rotation forest ensemble algorithm for the classification of phyto-chemicals from the medicinal plants, Journal of chemical and pharmaceutical science, pp. 14-17, Special issue  4,  2016.  
-3. Ani R., Jose J. ,Wilson M., Deepa O.S.: Modified rotation forest ensemble classifier for medical diagnosis in decision support systems Advances in Intelligent Systems and Computing,564, pp. 137-146. 
-3. Ani R., Krishna S., Anju N., Sona A.M., Deepa O.S.: IoT based patient monitoring and diagnostic prediction tool using ensemble classifier, 2017 International Conference on Advances in Computing, Communications and Informatics, ICACCI 2017, 2017 January, pp. 1588-1593. 
-5. Ani R. and Deepa O.S.: Rotation forest ensemble algorithm for the classification of phyto-chemicals from the medicinal plants, Journal of Chemical and Pharmaceutical Sciences,2016(SpecialIssue4), pp. 6-9 
-6. Deepa O.S. and Ani R.: Expectation - Maximization algorithm for protein - Ligand complex of HFE gene, Journal of Chemical and Pharmaceutical Sciences, pp. 14-17, 2016(SpecialIssue4),  
-7. Halil Yigit:  ABC – based distance - weighted kNN algorithm, Journal of Experimental and Theoretical Artificial Intelligence, Vol.27, issue 2, 2015.  
-8. Liwen Huang and Lianta Su: Hierarchical Discriminant analysis and its application, Liwen  Huang and Lianta Su, Communication in Statistics – Theory and Methods, Vol 42, issue 11, 2013.  
-9. P. Kakaivani, K.L. Shumuganathan: An improved K – nearest neighbour algorithm using   genetic algorithm for sentiment classification, IEEE Xplore, March 2015.  
-10. P.T. Pepler, D.W Uys and D.G. Nel ; Discriminant analysis under the common principal  components model, Communication in statistics- simulation and computations, vol 46, issue 6, Feb 2017.  
-11. Shweta Taneia, Charu Gupta, Kratika Goval, Dharna Gureia: An Enhanced K-Nearest Neighbour Algorithm Using Information Gain and clustering, IEEE Xplore April 2014.  
-12. Wei-Yin Loh and Nutal Vanichesetakal: Journal of the American Statistical Association, Vol 83, issue 403, Mar 2012 Tree-Structured Classification via Generalized Discriminant Analysis.  
-13. Xuejun Ma, Xiaogun He and Xiaokang Shi : A variant of K nearest neighbour quantile  regression, Journal of Applied Statistics, Vol 43,issue 3 ,2016. 
-14. Kormaz, Selcuk, Gokmen Zararsiz, and Dincer Goksusluk. “Drug/nondrug classification using support vector machines with various feature selection strategies.” computer methods and programs in biomedicine 117.2(2014): 51-60.
-15. Cano, Gaspar, et al. “Automatic selection of molecular descriptors using random forest: Application to Drug discovery.” Expert Systems with Applications 72(2017): 151-159.
-16. Rodriguez, Juan Jose. Ludmila I. Kuncheva, and Carlos J. Alonso. ‘Rotation forest: A new classifier ensemble method.” IEEE transactions on pattern analysis and machine intelligence 28.10(2006): 1619-1630.
-17. Lavecchia, Antonio. “Machine-learning approaches in Drug discovery: methods and applications.” Drug discovery today 20.3(2015): 318-331.
-
 ## Note
 
 I had prepared the below slides for my Final Year Project Review in MSc Mathematics. These slides contain the detailed workings of each of the algorithms as well as their accuracies
