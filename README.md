@@ -4,16 +4,6 @@
 
 To test the Prediction Accuracy of various Hybrid versions of the KNN, LDA & QDA algorithms and compare them with their original versions
 
-## Literature Survey
-
-1. Halil Yigit had worked on ABC- based distance–weighted kNN algorithm [7].
-2. Xuejun Ma, et.al [13] studied on a variant of K nearest neighbour quantile regression.
-3. Some of the related works based on KNN and Discriminant Analysis can be found in [1, 8, 9, 10, 11, 12].  
-4. The working of this project is based on the study of molecular descriptors for Drug/Non-Drug compounds extracted from medicinal plants. The molecular descriptors of these chemical compounds are identified by Dr. O. S. Deepa Gopakumar and Ani R. They have studied a lot on the classification of the compounds extracted from the medicinal plants [2, 3, 4, 5, 6].
-5. Descriptions of the same can be found in [15, 16].
-6. The machine learning approaches like classification of these compounds to drug compounds and non drug compounds are done by Kormaz, Selcuk, Gokmen Zararsiz, and Dincer Goksusluk [14].
-7. Descriptions of machine learning approaches are also found in [17].
-
 ## Data Source
 
 The data used for testing the Prediction Accuracy was taken from the UCI Repository
