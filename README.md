@@ -38,7 +38,7 @@ The Diabetes Dataset was divided into 10 different partitions where one partitio
 
 ### b. Cancer Dataset
 
-The Cancer Dataset was divided in the same manner as the Diabetes Dataset and the classification followed the same procedure too. 
+The Cancer Dataset was divided in the same manner as the Diabetes Dataset and the classification followed the same procedure. 
 
 ### c. Herbal Plants Dataset
 
