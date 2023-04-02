@@ -271,10 +271,6 @@ In the below links, you can find the MATLAB codes for some of the algorithms as 
 
 ## Note
 
-I had prepared the below slides for my Final Year Project Review in MSc Mathematics. These slides contain the detailed workings of each of the algorithms as well as their accuracies
-
-<a href = ""> MSc Mathematics Final Year Project Review </a>
-
 Further background behind this project is given in the thesis below which I submitted for my Degree in MSc Mathematics in PDF format.
 
 <a href = "https://github.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/blob/main/RAHUL%20FINAL%20YEAR%20PROJECT%20REPORT.pdf"> HYBRID K-NEAREST NEIGHBOUR AND DISCRIMINANT ANALYSIS FOR PREDICTING MEDICAL DIAGNOSIS IN DECISION SUPPORT SYSTEM </a>
