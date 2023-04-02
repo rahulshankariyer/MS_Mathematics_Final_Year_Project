@@ -105,7 +105,7 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 
 ![alt text](https://raw.githubusercontent.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/main/QDA.png)
 
-### Usage of LDA and QDA
+### When to use LDA and QDA
 
 1. LDA tends to be a better bet than QDA if there are relatively few training observations and so has substantially lower variance.
 2. QDA is recommended if the training set is very large, so that the variance of the classifier is not a major concern.
