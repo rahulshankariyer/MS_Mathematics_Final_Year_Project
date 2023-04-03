@@ -207,6 +207,8 @@ Predictions using each of the above were crried out and their accuracy was also 
 | Constrained KNN LDA | 77 | 23 | 77% |
 | Constrained KNN QDA | 76 | 24 | 76% |
 
+![alt text](https://raw.githubusercontent.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/main/Diabetes%20Dataset.png)
+
 ### Accuracy On Cancer Dataset
 
 | Algorithm | Correctly Classified | Incorrectly Classified | Accuracy % |
@@ -227,6 +229,8 @@ Predictions using each of the above were crried out and their accuracy was also 
 | Constrained KNN LDA | 92 | 8 | 92% |
 | Constrained KNN QDA | 99 | 1 | 99% |
 
+![alt text](https://raw.githubusercontent.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/main/Cancer%20Dataset.png)
+
 ### Accuracy On Herbal Plants Dataset
 
 | Algorithm | Correctly Classified | Incorrectly Classified | Accuracy % |
@@ -246,6 +250,8 @@ Predictions using each of the above were crried out and their accuracy was also 
 | Constrained KNN | 54 | 18 | 75% |
 | Constrained KNN LDA | 69 | 3 | 95.83% |
 | Constrained KNN QDA | 62 | 10 | 86.11% |
+
+![alt text](https://raw.githubusercontent.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/main/Herbal%20Plants%20Dataset.png)
 
 The MATLAB codes for some of the algorithms as well as the code computing their accuracies are given in the links below.
 
