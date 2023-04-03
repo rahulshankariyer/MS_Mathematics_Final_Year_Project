@@ -270,5 +270,6 @@ The MATLAB codes for some of the algorithms as well as the code computing their 
 
 ## Conclusion
 
-1. On the cancer and diabetes datasets, there was negligible difference between the accuracies of the hybrid and the original algorithms, but the hybrid algorithms showed a significant improvement in accuracy on the herbal plants dataset.
-2. The prediction for diabetes using various algorithms was around 77% and can be improved by using few boosting techniques or by increasing the number of samples.
+1. On the cancer and diabetes datasets, there was negligible difference between the hybrid and the original version of the KNN algorithms. 
+2. The hybrid versions of the KNN algorithms showed a significant improvement in accuracy over the original versions on the herbal plants dataset.
+3. The prediction for diabetes using various algorithms was around 77% and can be improved by increasing the number of samples.
