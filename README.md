@@ -51,7 +51,7 @@ The original dataset contained information for 143 Herbal Plants, so it was divi
 
 ## Analysis
 
-Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis algorithms (listed below) were applied on our Testing Datasets
+Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis algorithms (listed below) were applied on our Testing Datasets.
 
 1. KNN (Original Algorithm)
 2. LDA (Original Algorithm)
@@ -73,15 +73,15 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 
 ### Overview of KNN Classifier
 
-1. This classifier does classification using instance based learning
-2. KNN stands for K-Nearest Neighbors
-3. This algorithm consists of two phases – training phase and testing phase
-4. Training phase consists only of storing the feature vectors and class labels of the training sample
-5. K is a user defined parameter which tells us how many neighbours to consider from the testing sample
-6. The distances from each training point to the testing point are calculated
-7. Identify the k-nearest neighbors
-8. Use the class labels of these k-nearest neighbors to determine the class label for the testing sample
-9. The testing sample is assigned the class label of the majority of the k-nearest neighbors
+1. This classifier does classification using instance based learning.
+2. KNN stands for K-Nearest Neighbors.
+3. This algorithm consists of two phases – training phase and testing phase.
+4. Training phase consists only of storing the feature vectors and class labels of the training sample.
+5. K is a user defined parameter which tells us how many neighbours to consider from the testing sample.
+6. The distances from each training point to the testing point are calculated.
+7. Identify the k-nearest neighbors.
+8. Use the class labels of these k-nearest neighbors to determine the class label for the testing sample.
+9. The testing sample is assigned the class label of the majority of the k-nearest neighbors.
 
 ![alt text](https://raw.githubusercontent.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/main/KNN.png)
 
@@ -154,7 +154,7 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 10. For each class we can calculate the covariance matrix using the formula (G*G’)/(number of rows in G) for any given matrix G. In this case, we shall apply the formula to the matrices C01,C02,…,C0n and call the resulting covariance matrices CovC1,CovC2,…,CovCn.  
 11. Calculate the pooled covariance matrix, say Cov, which is given by the formula Ʃ(no of rows in each distance matrix*Covariance Matrix)/(no of rows in each distance matrix).
 12. Apply this formula to distance matrices d1,d2,…,dn and covariance matrices CovC1,CovC2,…,CovCn.
-13. For  each  class,  calculate  ZC1=(-0.5*((1-(avgC1/CovC1))*(-avgC1)’-log(det(CovC1)))+log((number of rows in the distance matrix of (C1/k))
+13. For  each  class,  calculate  ZC1=(-0.5*((1-(avgC1/CovC1))*(-avgC1)’-log(det(CovC1)))+log((number of rows in the distance matrix of (C1/k)).
 14. Apply this same formula to classes c1,c2,…,cn.  
 15. Compare the values calculated in step 11.  
 16. Assign the testing data set with the class having the greatest value calculated in step 11.  
@@ -183,7 +183,7 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 3. We choose k-nearest neighbors that satisfy certain conditions.
 4. We can perform two variants of this algorithm – Constrained KNN LDA Algorithm and Constrained KNN QDA Algorithm.
 5. Constrained KNN LDA is similar to Condensed KNN LDA algorithm, the only difference being that in this case, we have partial memberships in each class.
-6. Constrained KNN QDA is the same as Fuzzy QDA except that at the end we take the percentage of the X and Y values at the end of the algorithm and represent this as the membership of the testing data set in each class
+6. Constrained KNN QDA is the same as Fuzzy QDA except that at the end we take the percentage of the X and Y values at the end of the algorithm and represent this as the membership of the testing data set in each class.
 
 ### Accuracy On Diabetes Dataset
 
@@ -270,5 +270,5 @@ The MATLAB codes for some of the algorithms as well as the code computing their 
 
 ## Conclusion
 
-1. On the cancer and diabetes datasets, there was negligible difference between the accuracies of the hybrid and the original algorithms, but the hybrid algorithms showed a significant improvement in accuracy on the herbal plants dataset
+1. On the cancer and diabetes datasets, there was negligible difference between the accuracies of the hybrid and the original algorithms, but the hybrid algorithms showed a significant improvement in accuracy on the herbal plants dataset.
 2. The prediction for diabetes using various algorithms was around 77% and can be improved by using few boosting techniques or by increasing the number of samples.
