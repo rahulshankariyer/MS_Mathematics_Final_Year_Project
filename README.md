@@ -164,7 +164,7 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 1. This algorithm is based on calculating ownership of each class towards the testing data set. 
 2. The class with the highest ownership towards the testing data set is assigned to the testing data set.
 3. We can perform two variants of this algorithm – Rough KNN LDA Algorithm and Rough KNN QDA Algorithm.
-4. These algorithms are quite similar to Fuzzy LDA and Fuzzy QDA algorithms respectively.
+4. These algorithms are quite similar to Fuzzy KNN LDA and Fuzzy KNN QDA algorithms respectively.
 5. The only difference is that we use weighted distances for calculating the X and Y values at the end of each algorithm instead of the ordinary distances. 
 
 ### Condensed KNN Algorithm
@@ -269,4 +269,5 @@ The MATLAB codes for some of the algorithms as well as the code computing their 
 3. The prediction for diabetes using various algorithms was around 77% and can be improved by using few boosting techniques or by increasing the number of samples. So the computer based decision support systems can be used based on Fuzzy KNN- LDA, Fuzzy KNN- QDA, KNN-LDA and KNN -QDA so as to reduce cost and errors in clinical trials. 
 4. In the herbal plants data set, we find the LDA to be more effective than QDA with respect to ordinary KNN as well as with respect to Constrained Fuzzy. With respect to Fuzzy, Rough Fuzzy and Condensed Fuzzy, LDA and QDA are equally effective with higher accuracy in Rough Fuzzy than in Fuzzy and Condensed Fuzzy.
 
-1. 
+1. On the cancer and diabetes datasets, there was not much difference between the accuracies of the hybrid and the original algorithms, but the hybrid algorithms showed a significant improvement in accuracy on the herbal plants dataset
+2. 
