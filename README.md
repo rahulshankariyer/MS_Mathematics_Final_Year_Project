@@ -1,4 +1,4 @@
-# HYBRID K-NEAREST NEIGHBOUR AND DISCRIMINANT ANALYSIS FOR PREDICTING MEDICAL DIAGNOSIS IN DECISION SUPPORT SYSTEM - A Summary of my Master's Thesis
+# HYBRID K-NEAREST NEIGHBOR AND DISCRIMINANT ANALYSIS FOR PREDICTING MEDICAL DIAGNOSIS IN DECISION SUPPORT SYSTEM - A Summary of my Master's Thesis
 
 ## Project Objective
 
@@ -6,11 +6,11 @@ To test the Prediction Accuracy of various Hybrid versions of the KNN, LDA & QDA
 
 ## Data Source
 
-The data used for testing the Prediction Accuracy was taken from the University of California, Irvine Repository
+The data used for testing the prediction accuracy was taken from the University of California, Irvine Repository
 
 ## Data Used
 
-In this project, the following datasets were used for Prediction of Medical Diagnosis:
+In this project, the following datasets were used for prediction of medical diagnosis:
 
 1. Diabetes Dataset
 2. Cancer Dataset
@@ -20,15 +20,15 @@ In this project, the following datasets were used for Prediction of Medical Diag
 
 ### a. Diabetes Dataset
 
-The Diabetes Dataset contains a binary attribute that denotes whether the patient has Diabetes or not, which is based on 20 Clinical Attributes.
+The Diabetes Dataset contains a binary attribute that denotes whether the patient has Diabetes or not, which is based on 20 clinical attributes.
 
 ### b. Cancer Dataset
 
-The Cancer Dataset contains a binary attribute that denotes whether the patient has Cancer or not, which is based on 9 Clinical Attributes.
+The Cancer Dataset contains a binary attribute that denotes whether the patient has Cancer or not, which is based on 9 clinical attributes.
 
 ### c. Herbal Plants Dataset
 
-The Herbal Plants Dataset contains 23 Drug Properties along with an attribute that denotes which Chemical Compound is available in the plants. 
+The Herbal Plants Dataset contains 23 drug properties along with an attribute that denotes which chemical compound is available in the plants. 
 
 ## Data Transformations
 
@@ -74,14 +74,14 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 ### Overview of KNN Classifier
 
 1. This classifier does classification using instance based learning
-2. KNN stands for k-nearest neighbours
+2. KNN stands for K-Nearest Neighbors
 3. This algorithm consists of two phases – training phase and testing phase
 4. Training phase consists only of storing the feature vectors and class labels of the training sample
 5. K is a user defined parameter which tells us how many neighbours to consider from the testing sample
 6. The distances from each training point to the testing point are calculated
-7. Identify the k-nearest neighbours
-8. Use the class labels of these k-nearest neighbours to determine the class label for the testing sample
-9. The testing sample is assigned the class label of the majority of the k-nearest neighbours
+7. Identify the k-nearest neighbors
+8. Use the class labels of these k-nearest neighbors to determine the class label for the testing sample
+9. The testing sample is assigned the class label of the majority of the k-nearest neighbors
 
 ![alt text](https://raw.githubusercontent.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/main/KNN.png)
 
@@ -121,7 +121,7 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 6. For each class, calculate the value Ʃ(no of rows in each matrix*Covariance Matrix)/(distance of each training data set from the testing data set). These values are considered as XC1,XC2,…,XCn.  
 7. Let Ʃ1/(distance of each training data set from the testing data set).  For each class, calculate the value Z=X/Y. Let these values be ZC1,ZC2,…,ZCn.
 8. Assign the class with the highest Z-value to the testing data set. 
-9. If two of the classes both share the highest Z-value, then find the closest of the k neighbours belonging to one of these two classes and assign that class to the testing data set.  
+9. If two of the classes both share the highest Z-value, then find the closest of the k neighbors belonging to one of these two classes and assign that class to the testing data set.  
  
 ### Fuzzy KNN-LDA Algorithm
 
@@ -180,7 +180,7 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 
 1. This algorithm is based on the principle of assigning partial membership in a class to a testing data set.
 2. Membership of a testing data set can take on any real values in the interval [0,1]. 
-3. We choose k-nearest neighbours that satisfy certain conditions.
+3. We choose k-nearest neighbors that satisfy certain conditions.
 4. We can perform two variants of this algorithm – Constrained KNN LDA Algorithm and Constrained KNN QDA Algorithm.
 5. Constrained KNN LDA is similar to Condensed KNN LDA algorithm, the only difference being that in this case, we have partial memberships in each class.
 6. Constrained KNN QDA is the same as Fuzzy QDA except that at the end we take the percentage of the X and Y values at the end of the algorithm and represent this as the membership of the testing data set in each class
@@ -268,9 +268,3 @@ In the below links, you can find the MATLAB codes for some of the algorithms as 
 2. From the cancer data set it is found that the accuracy performance of LDA and QDA with respect to Condensed, Fuzzy, Constrained Fuzzy and Rough Fuzzy were high. Also accuracy of QDA on Condensed Fuzzy, Constrained Fuzzy, and Rough Fuzzy over whelmed the accuracy with respect to LDA and hence can be concluded that the use of KNN QDA on Condensed Fuzzy, Constrained Fuzzy and Rough Fuzzy is preferable.  
 3. The prediction for diabetes using various algorithms was around 77% and can be improved by using few boosting techniques or by increasing the number of samples. So the computer based decision support systems can be used based on Fuzzy KNN- LDA, Fuzzy KNN- QDA, KNN-LDA and KNN -QDA so as to reduce cost and errors in clinical trials. 
 4. In the herbal plants data set, we find the LDA to be more effective than QDA with respect to ordinary KNN as well as with respect to Constrained Fuzzy. With respect to Fuzzy, Rough Fuzzy and Condensed Fuzzy, LDA and QDA are equally effective with higher accuracy in Rough Fuzzy than in Fuzzy and Condensed Fuzzy.
-
-## Note
-
-Further background behind this project is given in the thesis below which I submitted for my Degree in MSc Mathematics in PDF format.
-
-<a href = "https://github.com/rahulshankariyer/MS_Mathematics_Final_Year_Project/blob/main/RAHUL%20FINAL%20YEAR%20PROJECT%20REPORT.pdf"> HYBRID K-NEAREST NEIGHBOUR AND DISCRIMINANT ANALYSIS FOR PREDICTING MEDICAL DIAGNOSIS IN DECISION SUPPORT SYSTEM </a>
