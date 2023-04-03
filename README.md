@@ -107,9 +107,9 @@ Using MATLAB, the below hybrid versions of the KNN and Discriminant Analysis alg
 
 ### When to use LDA and QDA
 
-1. LDA tends to be a better bet than QDA if there are relatively few training observations and so has substantially lower variance.
-2. QDA is recommended if the training set is very large, so that the variance of the classifier is not a major concern.
-3. QDA has more predictability power than LDA but it needs to estimate the covariance matrix for each classes. 
+1. LDA performs better than QDA if there are relatively few training observations and so has substantially lower variance.
+2. QDA is recommended if the training set is very large. The variance of the classifier is not a major concern.
+3. QDA has more predictability power than LDA but it needs a covariance matrix for each class. 
 
 ### Fuzzy KNN Algorithm
 
@@ -247,7 +247,7 @@ Predictions using each of the above were crried out and their accuracy was also 
 | Constrained KNN LDA | 69 | 3 | 95.83% |
 | Constrained KNN QDA | 62 | 10 | 86.11% |
 
-In the below links, you can find the MATLAB codes for some of the algorithms as well as the code computing their accuracies
+The MATLAB codes for some of the algorithms as well as the code computing their accuracies are given in the links below.
 
 1. <a href = "https://github.com/rahulshankariyer/Portfolio/blob/main/Final%20Year%20Project%202018-2019/MATLAB/KNN.m"> KNN </a>
 2. <a href = "https://github.com/rahulshankariyer/Portfolio/blob/main/Final%20Year%20Project%202018-2019/MATLAB/KNNAccuracy.m"> KNN Accuracy </a>
@@ -268,3 +268,5 @@ In the below links, you can find the MATLAB codes for some of the algorithms as 
 2. From the cancer data set it is found that the accuracy performance of LDA and QDA with respect to Condensed, Fuzzy, Constrained Fuzzy and Rough Fuzzy were high. Also accuracy of QDA on Condensed Fuzzy, Constrained Fuzzy, and Rough Fuzzy over whelmed the accuracy with respect to LDA and hence can be concluded that the use of KNN QDA on Condensed Fuzzy, Constrained Fuzzy and Rough Fuzzy is preferable.  
 3. The prediction for diabetes using various algorithms was around 77% and can be improved by using few boosting techniques or by increasing the number of samples. So the computer based decision support systems can be used based on Fuzzy KNN- LDA, Fuzzy KNN- QDA, KNN-LDA and KNN -QDA so as to reduce cost and errors in clinical trials. 
 4. In the herbal plants data set, we find the LDA to be more effective than QDA with respect to ordinary KNN as well as with respect to Constrained Fuzzy. With respect to Fuzzy, Rough Fuzzy and Condensed Fuzzy, LDA and QDA are equally effective with higher accuracy in Rough Fuzzy than in Fuzzy and Condensed Fuzzy.
+
+1. 
