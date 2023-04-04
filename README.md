@@ -1,12 +1,12 @@
-# HYBRID K-NEAREST NEIGHBOR AND DISCRIMINANT ANALYSIS FOR PREDICTING MEDICAL DIAGNOSIS IN DECISION SUPPORT SYSTEM - A Summary of my Master's Thesis
+# Hybrid K-Nearest Neighbor And Discriminant Analysis For Predicting Medical Diagnosis In Decision Support System - A Summary of my Master's Thesis
 
 ## Project Objective
 
-To test the Prediction Accuracy of various Hybrid versions of the KNN, LDA & QDA algorithms and compare them with their original versions
+To test the Prediction Accuracy of various hybrid versions of the K-Nearest Neighbors (KNN), Linear Discriminant Analysis (LDA) & Quadratic Discriminant Analysis (QDA) algorithms and compare them with their original versions.
 
 ## Data Source
 
-The data used for testing the prediction accuracy was taken from the University of California, Irvine Repository
+The data used for testing the prediction accuracy was taken from the University of California, Irvine Repository.
 
 ## Data Used
 
